@@ -12,7 +12,7 @@ echo "Dest:   $DEST"
 
 mkdir -p "$DEST"
 
-rsync -aHAX --delete   --info=progress2   --exclude="**/cache/"   --exclude="**/transcodes/"   --exclude="runtime/immich/thumbs/"   --exclude="logs/"   "$VAULT_ROOT/runtime/"   "$DEST/runtime/"
+rsync -aHAXx --delete   --info=progress2   --exclude="**/cache/"   --exclude="**/transcodes/"   --exclude="runtime/immich/thumbs/"   --exclude="logs/"   "$VAULT_ROOT/runtime/"   "$DEST/runtime/"
 
 echo
 echo "Backup completato in: $DEST"
