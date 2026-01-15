@@ -1,0 +1,6 @@
+# TODO: inserisci qui il docker-compose.yml di bookstack (v1)
+# Standard path: ${VAULT_ROOT}/runtime/bookstack/...
+services:
+  bookstack:
+    image: alpine:3
+    command: ["sh","-lc","echo 'placeholder bookstack'; sleep 3600"]

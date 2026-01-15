@@ -1,0 +1,6 @@
+# TODO: inserisci qui il docker-compose.yml di navidrome (v1)
+# Standard path: ${VAULT_ROOT}/runtime/navidrome/...
+services:
+  navidrome:
+    image: alpine:3
+    command: ["sh","-lc","echo 'placeholder navidrome'; sleep 3600"]

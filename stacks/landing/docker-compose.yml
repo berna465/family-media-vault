@@ -1,0 +1,9 @@
+services:
+  landing:
+    image: nginx:alpine
+    container_name: landing
+    restart: unless-stopped
+    volumes:
+      - ${VAULT_ROOT:-/srv/family-vault}/runtime/landing/html:/usr/share/nginx/html:ro
+    ports:
+      - "8088:80"

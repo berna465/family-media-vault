@@ -1,0 +1,6 @@
+# TODO: inserisci qui il docker-compose.yml di authelia (v1)
+# Standard path: ${VAULT_ROOT}/runtime/authelia/...
+services:
+  authelia:
+    image: alpine:3
+    command: ["sh","-lc","echo 'placeholder authelia'; sleep 3600"]

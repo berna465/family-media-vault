@@ -1,0 +1,6 @@
+# TODO: inserisci qui il docker-compose.yml di immich (v1)
+# Standard path: ${VAULT_ROOT}/runtime/immich/...
+services:
+  immich:
+    image: alpine:3
+    command: ["sh","-lc","echo 'placeholder immich'; sleep 3600"]

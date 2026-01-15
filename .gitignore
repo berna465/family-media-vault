@@ -1,0 +1,13 @@
+# Secrets & runtime
+/srv/
+/runtime/
+/backup/*.log
+deploy/.env
+
+# OS / editor
+.DS_Store
+*.swp
+*.tmp
+
+# Node / misc
+node_modules

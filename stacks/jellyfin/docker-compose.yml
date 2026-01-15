@@ -1,0 +1,6 @@
+# TODO: inserisci qui il docker-compose.yml di jellyfin (v1)
+# Standard path: ${VAULT_ROOT}/runtime/jellyfin/...
+services:
+  jellyfin:
+    image: alpine:3
+    command: ["sh","-lc","echo 'placeholder jellyfin'; sleep 3600"]
